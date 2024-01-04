@@ -5,6 +5,9 @@ fdisk -l
 
 echo "\nEnter device path (usually /dev/sdb2 or /dev/sdc2)"
 read usb_drive
+echo "\nDownload USB ThumbDrive Scripts.."
+wget https://raw.githubusercontent.com/mstofflett/JasonG/main/disk/usb-unmount.sh
+wget https://raw.githubusercontent.com/mstofflett/JasonG/main/disk/usb-remount.sh
 echo "\nDownload packages for exFAT support.."
 wget http://ftp.us.debian.org/debian/pool/main/f/fuse/fuse_2.9.9-1+deb10u1_amd64.deb
 wget http://ftp.us.debian.org/debian/pool/main/f/fuse-exfat/exfat-fuse_1.3.0-1_amd64.deb
