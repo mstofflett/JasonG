@@ -8,6 +8,7 @@ Jason's Repository of Cool Scripts made by Mike
 This will create a folder named /media/usbdrive and format/mount your USB drive there.
 
 Run the following commands in terminal as root
+
 wget https://raw.githubusercontent.com/mstofflett/JasonG/main/3cx-backup.sh
 
 sh 3cx-backup.sh
