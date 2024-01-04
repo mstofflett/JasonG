@@ -18,7 +18,7 @@ mkfs.exfat $usb_drive -n "3CXBackup"
 echo "\nPrepare Directory and set permissions"
 rm -rf /media/usbdrive
 mkdir /media/usbdrive
-chown -r phonesystem /media/usbdrive
+chown -R phonesystem /media/usbdrive
 echo "\nMount USB Drive to /media/usbdrive"
 mount $usb_drive /media/usbdrive
 echo "\nOperation Complete"
